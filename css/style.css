@@ -1168,4 +1168,17 @@ footer {
     flex-shrink: 0;
 }
 
+/* =========================================
+ * 📋  Chặn Sao Chép Văn Bản
+ * ========================================= */
+
+body {
+    /* Vô hiệu hóa chọn văn bản trên toàn bộ trang */
+    user-select: none;
+    -webkit-user-select: none; /* Dành cho trình duyệt WebKit (iOS/Safari) */
+    -moz-user-select: none; /* Dành cho Firefox */
+    -ms-user-select: none; /* Dành cho Internet Explorer/Edge */
+}
+
 /* ✨ CSS By Wu Long --> */
+
