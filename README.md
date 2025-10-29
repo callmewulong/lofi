@@ -75,7 +75,7 @@
 
 ---
 
-## 🪶 Tác giả | Author
+## 😆 Tác giả | Author
 
 **Designed & Developed by [Wu Long](https://x.com/callmewulong)**
 
