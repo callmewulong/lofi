@@ -91,23 +91,5 @@ Released under the **MIT License** — Feel free to use, remix, and share with c
 
 ---
 
-## 📸 Gợi ý | Tips
-
-Thêm ảnh preview để README nổi bật hơn:
-
-```markdown
-![Preview](image/thumbnail/lofi-family-share.jpg)
-```
-
-Hoặc thêm badge công nghệ:
-
-```markdown
-![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
-![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
-```
-
----
-
 💜 _Lofi Family — Cộng đồng sáng tạo dành cho những tâm hồn chill._  
 💫 _A creative space for souls that love to chill._
