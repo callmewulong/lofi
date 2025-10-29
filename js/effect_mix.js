@@ -88,7 +88,7 @@ document.addEventListener(
 
 document.addEventListener("DOMContentLoaded", () => {
   // Nội dung bạn muốn hiển thị
-  const fullText = `Gia Tộc LOFI là nơi dành cho những người yêu âm nhạc và có lối sống chill thư giãn. Chúng mình tạo nên một không gian yên bình, nơi mọi người tìm thấy sự thư giãn, tránh xa sự ồn ào và chúng mình cùng nhau phát triển các dự án sáng tạo mang đậm chất Lofi Aesthetics.
+  const fullText = `Gia Tộc LOFI trên WePlay là nơi dành cho những người yêu âm nhạc và có lối sống chill thư giãn. Chúng mình tạo nên một không gian yên bình, nơi mọi người tìm thấy sự thư giãn, tránh xa sự ồn ào và chúng mình cùng nhau phát triển các dự án sáng tạo mang đậm chất Lofi Aesthetics.
 
 👉🏻 ID Gia Tộc: V9999
 🔰 Phòng Gia Tộc: V313031`;
@@ -115,3 +115,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // ✨ JS By Wu Long -->
+
