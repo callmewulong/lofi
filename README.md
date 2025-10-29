@@ -9,7 +9,7 @@
 > 🌙 **VN:** Một không gian web nhỏ để chill cùng âm nhạc, kết nối bạn bè và sáng tạo cùng cộng đồng **Lofi Family**.  
 > ✨ Thiết kế & Phát triển thủ công bằng HTML, CSS, và JavaScript — Tập trung vào trải nghiệm và cảm xúc.
 
-> 🎵 **EN:** A minimal, lofi-inspired landing page to relax with music, share creative vibes, and connect with the **Lofi Family** community.  
+> 🎵 **EN:** A minimal, Lofi-Inspired landing page to relax with music, share creative vibes, and connect with the **Lofi Family** community.  
 > ✨ Fully handcrafted with HTML, CSS, and vanilla JavaScript — Designed for pure chill and emotion.
 
 ---
