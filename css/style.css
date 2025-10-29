@@ -1180,5 +1180,16 @@ body {
     -ms-user-select: none; /* Dành cho Internet Explorer/Edge */
 }
 
+/* Áp dụng cho toàn bộ trang để xử lý tất cả các phần tử */
+body {
+    /* Loại bỏ màu nổi bật mặc định khi người dùng chạm vào liên kết hoặc nút */
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Hoặc chỉ áp dụng cho các nút bấm cụ thể */
+.ten-class-nut-cua-ban {
+    -webkit-tap-highlight-color: transparent;
+}
 /* ✨ CSS By Wu Long --> */
+
 
