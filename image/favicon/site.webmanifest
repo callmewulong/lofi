@@ -5,7 +5,7 @@
   "start_url": "/lofi/",
   "lang": "vi-VN",
   "theme_color": "#a677ff",
-  "background_color": "#a677ff",
+  "background_color": "#1e1e2c",
   "display": "standalone",
   "icons": [
     {
