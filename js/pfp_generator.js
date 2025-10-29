@@ -13,7 +13,7 @@ const AVATAR_ASSETS = [];
 const basePath = 'image/avatar/pfp-generator/';
 
 // Vòng lặp từ 1 đến 999
-for (let i = 1; i <= 012; i++) { 
+for (let i = 1; i <= 12; i++) { 
     // Định dạng số thành chuỗi 3 chữ số (ví dụ: 1 -> '001', 10 -> '010', 100 -> '100')
     const paddedNumber = i.toString().padStart(3, '0'); 
     AVATAR_ASSETS.push(`${basePath}${paddedNumber}.png`);
@@ -68,3 +68,4 @@ if (generateBtn) {
 // Gọi lần đầu khi tải trang
 generatePfpFromCompletedAssets();
 // ✨ JS By Wu Long -->
+
