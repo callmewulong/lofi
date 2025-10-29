@@ -16,7 +16,7 @@
 
 ## 🛠️ Công nghệ | Tech Stack
 
-| 🧱  | Công nghệ / Technology | Mục đích / Purpose                                 |
+| 🔰  | Công nghệ / Technology | Mục đích / Purpose                                 |
 | --- | ---------------------- | -------------------------------------------------- |
 | 🌐  | **HTML5**              | Xây dựng cấu trúc nội dung / Build page structure  |
 | 🎨  | **CSS3**               | Hiệu ứng giao diện & animation / UI & animations   |
