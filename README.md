@@ -38,7 +38,7 @@
 | 🖼️ **Avatar Generator**             | Random Lofi avatars (downloadable)            |
 | 💬 **Form góp ý sự kiện**           | Popup “Thank You” after submission            |
 | 🚫 Chặn sao chép nội dung           | Disable text selection & Copying              |
-| ⚡ JS tối ưu                        | Throttle, animation cleanup, and modular code |
+| ⚡ JS tối ưu                         | Throttle, animation cleanup, and modular code |
 
 ---
 
@@ -55,7 +55,7 @@
 │   ├── light_dark_mode.js     # Chuyển theme / Theme toggle
 │   ├── music_lofi.js          # Nhạc nền / Lofi music player
 │   ├── pfp_generator.js       # Avatar ngẫu nhiên / Random avatar generator
-│   └── slider_lightbox.js     # Slider & zoom ảnh / Image slider + Lightbox
+│   └── slider_lightbox.js     # Slider & Zoom ảnh / Image slider + Lightbox
 ├── image/
 │   ├── avatar/
 │   ├── thumbnail/
