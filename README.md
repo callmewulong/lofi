@@ -37,7 +37,7 @@
 | 💫 Hiệu ứng sao băng + đánh máy     | Shooting stars & typing animation             |
 | 🖼️ **Avatar Generator**             | Random Lofi avatars (downloadable)            |
 | 💬 **Form góp ý sự kiện**           | Popup “Thank You” after submission            |
-| 🚫 Chặn sao chép nội dung           | Disable text selection & copying              |
+| 🚫 Chặn sao chép nội dung           | Disable text selection & Copying              |
 | ⚡ JS tối ưu                        | Throttle, animation cleanup, and modular code |
 
 ---
