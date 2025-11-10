@@ -1140,7 +1140,7 @@ footer {
 
     #avatar-preview-container {
         /* THAY ĐỔI QUAN TRỌNG: */
-        width: 95%; /* Avatar co giãn theo màn hình */
+        width: 100%; /* Avatar co giãn theo màn hình */
         height: auto; /* Chiều cao tự động */
         aspect-ratio: 1 / 1; /* Đảm bảo hình vuông */
         max-width: 300px; /* Giới hạn tối đa 300px */
@@ -1589,7 +1589,7 @@ body {
 
 /* 🌿 Trưởng Lão (Xanh Lá Cây Nhạt) */
 .member-role.truong-lao {
-  background: linear-gradient(135deg, #00d739, #43d76b);
+  background: linear-gradient(135deg, #00d739, #5cd67d);
 }
 
 /* 🌼 Thành Viên (Tím Nhạt) */
