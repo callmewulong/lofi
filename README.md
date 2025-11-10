@@ -19,6 +19,7 @@
 | 🔰  | Công nghệ / Technology | Mục đích / Purpose                                 |
 | --- | ---------------------- | -------------------------------------------------- |
 | 🌐  | **HTML5**              | Xây dựng cấu trúc nội dung / Build page structure  |
+| 🌐  | **PHP**                | Hỗ trợ xử lý API cho việc Donate / Backend API     |
 | 🎨  | **CSS3**               | Hiệu ứng giao diện & animation / UI & animations   |
 | ⚙️  | **JavaScript (ES6)**   | Logic tương tác, hiệu ứng động / Interactive logic |
 | 💌  | **Formspree API**      | Gửi góp ý / Handle form submissions                |
@@ -37,8 +38,9 @@
 | 💫 Hiệu ứng sao băng + đánh máy     | Shooting stars & typing animation             |
 | 🖼️ **Avatar Generator**             | Random Lofi avatars (downloadable)            |
 | 💬 **Form góp ý sự kiện**           | Popup “Thank You” after submission            |
+| 💳 **Popup nạp thẻ cào**            | Card top‑up popup with API handler (Partners) |
 | 🚫 Chặn sao chép nội dung           | Disable text selection & Copying              |
-| ⚡ JS tối ưu                        | Throttle, animation cleanup, and modular code |
+| ⚡ JS tối ưu                         | Throttle, animation cleanup, and modular code |
 
 ---
 
