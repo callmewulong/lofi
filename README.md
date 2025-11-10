@@ -35,11 +35,11 @@
 | 🌗 **Chuyển đổi Light / Dark Mode** | Smooth theme switcher with memory             |
 | 🎧 **Nhạc nền Lofi**                | Background Lofi player with autoplay fix      |
 | 📸 **Slider ảnh** + **Lightbox**    |  Auto-sliding gallery with zoom effect        |
-| 💫 **Hiệu ứng sao băng + đánh máy** | Shooting stars & Typing animation             |
 | 🖼️ **Avatar Generator**             | Random Lofi avatars (Downloadable)            |
 | 💬 **Form góp ý sự kiện**           | Popup “Thank You” after submission            |
 | 💳 **Popup nạp thẻ cào**            | Card top‑up popup with API handler (Partners) |
 | 🎬 **Anime Animation**              | Hiệu ứng Anime / Anime-style character motion |
+| 💫 **Hiệu ứng sao băng + đánh máy** | Shooting stars & Typing animation             |
 | 🚫 **Chặn sao chép nội dung**       | Disable text selection & Copying              |
 | ⚡ **JS tối ưu**                     | Throttle, animation cleanup, and modular code |
 
