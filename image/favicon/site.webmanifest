@@ -1,0 +1,29 @@
+
+{
+  "name": "Lofi Family",
+  "short_name": "Lofi Family",
+  "description": "Cộng đồng Lofi Family: Chill cùng âm nhạc, kết nối bạn bè và sáng tạo Lofi Art.",
+  "start_url": "/lofi/",
+  "lang": "vi-VN",
+  "theme_color": "#a677ff",
+  "background_color": "#1e1e2c",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
