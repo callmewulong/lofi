@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // 🔐 Cấu hình tài khoản Thesieure
 const PARTNER_ID = "69719821569"; // 🆔 ID API của bạn
-const SECRET_KEY = "e94612d92cf38ba2237bfc90895dd2dc"; // 🔑 Secret Key của bạn
+const SECRET_KEY = "6814c0a4c265525b1426a8c5a06fff19"; // 🔑 Secret Key của bạn
 const API_URL = "https://thesieure.com/chargingws/v2";
 
 // 💳 Route xử lý nạp thẻ
@@ -90,3 +90,4 @@ const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`✅ Server chạy tại: http://127.0.0.1:${PORT}`);
 });
+
