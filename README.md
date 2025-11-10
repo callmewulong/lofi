@@ -7,10 +7,10 @@
 ## 🌸 Giới thiệu | Introduction
 
 > 🌙 **VN:** Một không gian web nhỏ để chill cùng âm nhạc, kết nối bạn bè và sáng tạo cùng cộng đồng **Lofi Family**.  
-> ✨ Thiết kế & Phát triển thủ công bằng HTML, CSS, và JavaScript — Tập trung vào trải nghiệm và cảm xúc.
+> ✨ Thiết kế & Phát triển thủ công bằng HTML, PHP, CSS, và JavaScript — Tập trung vào trải nghiệm và cảm xúc.
 
 > 🎵 **EN:** A minimal, Lofi-Inspired landing page to relax with music, share creative vibes, and connect with the **Lofi Family** community.  
-> ✨ Fully handcrafted with HTML, CSS, and vanilla JavaScript — Designed for pure chill and emotion.
+> ✨ Fully handcrafted with HTML, PHP, CSS, and vanilla JavaScript — Designed for pure chill and emotion.
 
 ---
 
@@ -24,23 +24,24 @@
 | ⚙️  | **JavaScript (ES6)**   | Logic tương tác, hiệu ứng động / Interactive logic |
 | 💌  | **Formspree API**      | Gửi góp ý / Handle form submissions                |
 | 🌓  | **LocalStorage API**   | Ghi nhớ chế độ sáng–tối / Save theme preference    |
-| 📱  | **Responsive Design**  | Hỗ trợ mobile & desktop / Works across devices     |
+| 📱  | **Responsive Design**  | Hỗ trợ Mobile & Desktop / Works across devices     |
 
 ---
 
 ## 🌈 Tính năng | Features
 
-| 🌟                                  | Mô tả / Description                           |
+| 🌟 Chức Năng                        | Mô tả / Description                           |
 | ----------------------------------- | --------------------------------------------- |
-| 🌗 Chuyển đổi **Light / Dark Mode** | Smooth theme switcher with memory             |
-| 🎧 Nhạc nền Lofi                    | Background Lofi player with autoplay fix      |
-| 📸 **Slider ảnh** + Lightbox        | Auto-sliding gallery with zoom effect         |
-| 💫 Hiệu ứng sao băng + đánh máy     | Shooting stars & typing animation             |
-| 🖼️ **Avatar Generator**             | Random Lofi avatars (downloadable)            |
+| 🌗 **Chuyển đổi Light / Dark Mode** | Smooth theme switcher with memory             |
+| 🎧 **Nhạc nền Lofi**                | Background Lofi player with autoplay fix      |
+| 📸 **Slider ảnh** + **Lightbox**    |  Auto-sliding gallery with zoom effect        |
+| 💫 **Hiệu ứng sao băng + đánh máy** | Shooting stars & Typing animation             |
+| 🖼️ **Avatar Generator**             | Random Lofi avatars (Downloadable)            |
 | 💬 **Form góp ý sự kiện**           | Popup “Thank You” after submission            |
 | 💳 **Popup nạp thẻ cào**            | Card top‑up popup with API handler (Partners) |
-| 🚫 Chặn sao chép nội dung           | Disable text selection & Copying              |
-| ⚡ JS tối ưu                         | Throttle, animation cleanup, and modular code |
+| 🎬 **Anime Animation**              | Hiệu ứng Anime / Anime-style character motion |
+| 🚫 **Chặn sao chép nội dung**       | Disable text selection & Copying              |
+| ⚡ **JS tối ưu**                     | Throttle, animation cleanup, and modular code |
 
 ---
 
@@ -57,13 +58,17 @@
 │   ├── light_dark_mode.js     # Chuyển theme / Theme toggle
 │   ├── music_lofi.js          # Nhạc nền / Lofi music player
 │   ├── pfp_generator.js       # Avatar ngẫu nhiên / Random avatar generator
+│   ├── script.js              # JS phụ trợ / Misc helpers
 │   └── slider_lightbox.js     # Slider & Zoom ảnh / Image slider + Lightbox
+│   └── topup_api_card.js      # Popup nạp thẻ / Card top-up API
 ├── image/
 │   ├── avatar/
 │   ├── thumbnail/
 │   └── favicon/
 ├── music/
 │   └── Ocean Eyes.mp3
+├── api/..
+├── config/..
 └── site.webmanifest
 ```
 
