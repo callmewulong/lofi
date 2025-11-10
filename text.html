@@ -1,0 +1,323 @@
+<!-- ✨ Code by Wu Long -->
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lofi Family - Cộng Đồng Gia Tộc Lofi Chill</title>
+
+  <!-- 🪶 SEO -->
+  <meta name="description"
+    content="Tham gia Gia Tộc Lofi Family trên WePlay (ID: V9999) để chill cùng âm nhạc, làm quen bạn bè và tham gia các dự án sáng tạo Lofi Art, Livestream Study Session." />
+  <meta name="keywords"
+    content="Lofi Family, Lofi, Chill, Cộng đồng, Gia tộc, V9999, Lofi Study, Lofi Art, Weplay" />
+  <meta name="author" content="Wu Long / Lofi Family" />
+
+  <!-- 🌐 Open Graph -->
+<meta property="og:title" content="Lofi Family - Cộng Đồng Gia Tộc Lofi Chill & Sáng Tạo" />
+<meta property="og:description"
+    content="Tham gia Gia Tộc Lofi Family trên WePlay (ID: V9999) để chill cùng âm nhạc, làm quen bạn bè và tham gia các dự án sáng tạo Lofi Art, Livestream Study Session." />
+
+<meta property="og:image" content="image/thumbnail/lofi-family-share.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="Lofi Family" />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://lofi.family" />
+<meta property="og:locale" content="vi_VN" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="image/thumbnail/lofi-family-share.jpg">
+
+  <!-- 🎵 Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    
+  <link rel="shortcut icon" href="image/favicon/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="image/favicon/favicon.svg" />
+  <link rel="icon" type="image/png" href="image/favicon/favicon-96x96.png" sizes="96x96" />
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="image/favicon/site.webmanifest" />
+
+  <!-- 🌌 CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body id="page-body">
+
+  <!-- 🎧 Nhạc nền -->
+  <audio id="lofi-music" loop>
+    <source src="music/Ocean Eyes.mp3" type="audio/mpeg" />
+    Trình duyệt của bạn không hỗ trợ thẻ audio.
+  </audio>
+
+  <!-- 🛠️ Nút điều khiển -->
+  <div class="control-panel">
+    <button id="mode-toggle" class="control-button">
+      <i class="fas fa-sun"></i>
+    </button>
+    <button id="music-toggle" class="control-button">
+      <i class="fas fa-play"></i>
+    </button>
+  </div>
+
+  <!-- 🌠 Header -->
+  <header>
+    <div class="container">
+      <h1>L O F I &nbsp; F A M I L Y</h1>
+      <p class="neon-text">Chill Cùng Gia Đình Lofi</p>
+    </div>
+  </header>
+
+  <!-- 🌈 Nội dung chính -->
+  <main>
+    <div class="container">
+
+      <!-- 💥 Modal Phóng To Ảnh -->
+      <div id="imageModal" class="image-modal">
+        <img class="modal-content" id="modalImage" alt="Ảnh phóng to" />
+      </div>
+
+      <!-- 📸 Slide Dự Án -->
+      <section id="du-an-slideshow">
+        <h2><i class="fas fa-camera-retro"></i> Khoảnh Khắc Lofi</h2>
+
+        <div class="image-carousel">
+          <div class="carousel-inner" id="carousel-inner">
+            <div class="carousel-item"><img src="image/00.png" alt="Lofi Scene 0" /></div>
+            <div class="carousel-item"><img src="image/01.png" alt="Lofi Scene 1" /></div>
+            <div class="carousel-item"><img src="image/02.png" alt="Lofi Scene 2" /></div>
+            <div class="carousel-item"><img src="image/03.png" alt="Lofi Scene 3" /></div>
+            <div class="carousel-item"><img src="image/04.png" alt="Lofi Scene 4" /></div>
+            <div class="carousel-item"><img src="image/05.png" alt="Lofi Scene 5" /></div>
+            <div class="carousel-item"><img src="image/06.png" alt="Lofi Scene 6" /></div>
+          </div>
+
+          <!-- 🔄 Nút chuyển ảnh -->
+          <div class="carousel-controls">
+            <button class="carousel-control-btn" id="prev-slide">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-control-btn" id="next-slide">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="carousel-dots" id="carousel-dots"></div>
+        </div>
+
+        <!-- 📅 Sự kiện -->
+        <div class="card mt-4">
+          <h3>Các Sự Kiện Gần Đây</h3>
+          <ul>
+            <li><strong>Album "Lofi Mưa Tháng Mười Một":</strong> Đã phát hành trên các nền tảng streaming chính.</li>
+            <li><strong>Chuỗi Livestream "Lofi Study Session":</strong> Diễn ra hàng tuần, thu hút hàng trăm người tham gia.</li>
+            <li><strong>Thử Thách Sáng Tạo "Lofi Art Prompt":</strong> Cộng đồng cùng nhau tạo tác phẩm nghệ thuật lấy cảm hứng Lofi.</li>
+          </ul>
+
+          <!-- 🔘 Nút Góp Ý -->
+          <div class="feedback-section">
+            <button id="feedback-btn" class="feedback-button glow-button">
+              Góp Ý Tổ Chức Sự Kiện
+            </button>
+          </div>
+
+          <!-- 💬 Form Góp Ý -->
+          <div id="feedback-modal" class="feedback-modal">
+            <div class="feedback-content light-form">
+              <span class="close-feedback">&times;</span>
+              <h3>Góp ý tổ chức sự kiện</h3>
+
+              <form id="feedback-form" action="https://formspree.io/f/xqagapgz" method="POST">
+                <label for="name">Tên của bạn</label>
+                <input type="text" id="name" name="name" placeholder="Tên của bạn" />
+
+                <label for="contact">Thông tin liên hệ</label>
+                <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap" rel="stylesheet">
+                <small style="font-family: 'Be Vietnam Pro', sans-serif; font-size: 0.7em; color: #fc0169;">
+                  Nếu ý tưởng của bạn khả thi, chúng mình sẽ liên hệ lại với bạn đấy nhé!
+                </small>
+                <input type="text" id="contact" name="contact" placeholder="Email, SĐT, Hoặc ID WePlay" />
+
+                <label for="idea">Ý tưởng của bạn <span style="color:#f6164a">*</span></label>
+                <textarea id="idea" name="idea" rows="4" placeholder="Ý tưởng của bạn là gì?" required></textarea>
+
+                <div class="center-btn">
+  <button type="submit" class="submit-feedback glow-button">Gửi góp ý</button>
+</div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ☁️ Giới thiệu -->
+      <section id="gioi-thieu" data-aos="fade-up" data-aos-duration="1000">
+        <h2><i class="fas fa-cloud-moon"></i> Giới Thiệu Về Gia Tộc Lofi</h2>
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <div id="typing-text"></div>
+        </div>
+                <!-- 💜 Nút Donate nhỏ -->
+<div class="donate-character-link">
+    <img src="./image/donate/donate_anime.png" 
+         alt="Nhân vật Donate Quỹ Gia Tộc" 
+         id="topup-btn" 
+         class="donate-character-img-main"
+         title="Nhấn vào để Donate">
+</div>
+      </section> 
+      <!-- 😆 Tạo avatar ngẫu nhiên -->
+      <section id="pfp-generator-section">
+        <h2><i class="fas fa-magic"></i> Avatar Lofi Ngẫu Nhiên</h2>
+        <div class="card pfp-card">
+          <div id="avatar-preview-container">
+            <img id="random-avatar-img" src="" alt="Avatar Ngẫu Nhiên" />
+          </div>
+          <div class="pfp-controls">
+            <button id="generate-pfp-btn" class="glow-button">
+              <i class="fas fa-dice"></i> Tạo Avatar Mới
+            </button>
+            <a id="download-pfp-btn" class="glow-button download-btn" href="#" download="lofi_pfp.png">
+              <i class="fas fa-download"></i> Tải Xuống
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- 🏅 Thành viên -->
+      <section id="thanh-vien">
+        <h2><i class="fas fa-medal"></i> Thành Viên Gia Tộc</h2>
+        <div class="member-grid">
+
+          <!-- 👑 Wu Long -->
+          <div class="member-card">
+            <img src="image/avatar/00.jpg" alt="Avatar Leader" class="member-avatar" />
+            <p class="member-name">Wu Long</p>
+            <p class="member-role toc-truong">Tộc Trưởng</p>
+            <p class="member-bio">
+              Người sáng lập Gia Tộc Lofi. Admin toàn quyền trên kênh Discord Lofi Family...
+            </p>
+            <div class="member-social">
+              <a href="https://facebook.com/callmewulong"><i class="fab fa-facebook"></i></a>
+              <a href="https://x.com/callmewulong"><i class="fab fa-twitter"></i></a>
+              <a href="https://discordapp.com/users/callmewulong"><i class="fab fa-discord"></i></a>
+            </div>
+          </div>
+
+          <!-- 🌸 Như Quỳnh -->
+          <div class="member-card">
+            <img src="image/avatar/01.jpg" alt="Avatar Co-Leader" class="member-avatar" />
+            <p class="member-name">Như Quỳnh</p>
+            <p class="member-role pho-toc-truong">Phó Tộc Trưởng</p>
+            <p class="member-bio">
+              Phó tộc trưởng trên Weplay. Chuyên quản lý các vấn đề trong Gia Tộc Lofi...
+            </p>
+            <div class="member-social">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+          </div>
+
+          <!-- ☕ Jinly -->
+          <div class="member-card">
+            <img src="image/avatar/02.jpg" alt="Avatar Elder" class="member-avatar" />
+            <p class="member-name">Jinly</p>
+            <p class="member-role truong-lao">Trưởng Lão</p>
+            <p class="member-bio">
+              Giữ kết nối giữa QTV và thành viên. Người tổ chức các buổi "Lofi Study Session" hàng tuần...
+            </p>
+            <div class="member-social">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      
+<!-- 🪙 Popup Nạp Thẻ -->
+<div id="topup-modal" class="feedback-modal">
+  <div class="feedback-content light-form topup-popup">
+    <span class="close-feedback">&times;</span>
+    <h3><i class="fas fa-coins"></i> Nạp Thẻ Cào</h3>
+    <p class="desc">Hỗ trợ Viettel, MobiFone, VinaPhone</p>
+
+    <form id="topup-form" class="topup-form">
+      <div class="form-group">
+        <label><i class="fas fa-signal"></i> Nhà mạng</label>
+        <select id="telco">
+          <option value="">-- Chọn nhà mạng --</option>
+          <option value="VIETTEL">Viettel</option>
+          <option value="MOBIFONE">Mobifone</option>
+          <option value="VINAPHONE">Vinaphone</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label><i class="fas fa-coins"></i> Mệnh giá</label>
+        <select id="amount">
+          <option value="">-- Chọn mệnh giá --</option>
+          <option value="10000">10.000</option>
+          <option value="20000">20.000</option>
+          <option value="50000">50.000</option>
+          <option value="100000">100.000</option>
+          <option value="200000">200.000</option>
+          <option value="500000">500.000</option>
+          <option value="1000000">1.000.000</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label><i class="fas fa-barcode"></i> Serial</label>
+        <input type="text" id="serial" placeholder="Nhập serial">
+      </div>
+
+      <div class="form-group">
+        <label><i class="fas fa-key"></i> Mã thẻ</label>
+        <input type="text" id="code" placeholder="Nhập mã thẻ">
+      </div>
+
+      <button type="submit" class="glow-button">
+  <span><i class="fas fa-paper-plane"></i> Gửi Thẻ</span>
+</button>
+    </form>
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <!-- ⚡ Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Lofi Family — Designed by
+        <a href="https://x.com/callmewulong" target="_blank" rel="noopener noreferrer">
+          <strong>Wu Long</strong>
+        </a>
+      </p>
+    </div>
+  </footer>
+
+<!--JS Script -->
+<script type="module" src="js/script.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    if (typeof initializePfpGenerator === "function") {
+      initializePfpGenerator();
+    }
+  });
+</script>
+</body>
+</html>
+<!-- ✨ Code by Wu Long -->
