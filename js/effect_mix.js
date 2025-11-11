@@ -125,12 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.warn("Không tìm thấy '.donate-character-img-main' để áp dụng hiệu ứng chớp mắt.");
         return;
     }
-
-    // Giả định bạn có hai hình ảnh:
-    // 1. Mắt mở: image/donate_anime.png (Đang dùng)
-    // 2. Mắt nhắm/khép hờ: image/donate_anime_blink.png
-    // Thay đổi đường dẫn nếu tên file của bạn khác
-
     const openEyeSrc = animeGirlImg.src; // Lấy đường dẫn hiện tại làm mắt mở
     // Đảm bảo đường dẫn này đúng với vị trí file ảnh chớp mắt
     const blinkEyeSrc = openEyeSrc.replace('donate_anime.png', 'donate_anime_blink.png'); 
@@ -153,3 +147,4 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(blink, initialBlinkTime);
 });
 // ✨ JS By Wu Long -->
+
