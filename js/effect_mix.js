@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Giả định bạn có hai hình ảnh:
-    // 1. Mắt mở: image/donate_anime.png (đang dùng)
+    // 1. Mắt mở: image/donate_anime.png (Đang dùng)
     // 2. Mắt nhắm/khép hờ: image/donate_anime_blink.png
     // Thay đổi đường dẫn nếu tên file của bạn khác
 
@@ -142,14 +142,14 @@ document.addEventListener('DOMContentLoaded', () => {
             // Mở mắt lại
             animeGirlImg.src = openEyeSrc;
             // Đặt thời gian chờ ngẫu nhiên cho lần chớp mắt tiếp theo
-            // Chớp mắt sau 3 đến 8 giây
-            const nextBlinkTime = Math.random() * 5000 + 3000; 
+            // Chớp mắt sau 3 đến 7 giây
+            const nextBlinkTime = Math.random() * 4000 + 3000; 
             setTimeout(blink, nextBlinkTime);
         }, 200); // Mắt nhắm trong 200ms
     }
 
     // Bắt đầu chớp mắt lần đầu sau một khoảng thời gian ngẫu nhiên
-    const initialBlinkTime = Math.random() * 5000 + 3000; 
+    const initialBlinkTime = Math.random() * 4000 + 3000; 
     setTimeout(blink, initialBlinkTime);
 });
 // ✨ JS By Wu Long -->
