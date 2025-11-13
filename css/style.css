@@ -1168,7 +1168,7 @@ body { -webkit-tap-highlight-color: transparent; }
 body.light-mode #topup-modal input,
 body.light-mode #topup-modal select,
 body.light-mode #topup-modal textarea {
-  background: #fafafa;
+  background: #f6f5f7;
   color: #333;
   border: 1.6px solid #e0e0e0;
   box-shadow: none;
