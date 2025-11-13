@@ -758,7 +758,7 @@ body:not(.light-mode) #feedback-form label {
 }
 
 body:not(.light-mode) #feedback-form small {
-  color: #1ed1f9 !important; /* Chữ mô tả màu hồng sáng */
+  color: #fd4390 !important; /* Chữ mô tả màu hồng sáng */
 }
 
 /* Placeholder */
@@ -779,8 +779,8 @@ body:not(.light-mode) .close-feedback {
 
 body.light-mode #feedback-form input,
 body.light-mode #feedback-form textarea {
-  background: #fafafa;
-  border: 1px solid #e0e0e0;
+  background: #f6f5f7;
+  border: 1.6px solid #e0e0e0;
   color: #333;
   transition: all 0.25s ease;
 }
