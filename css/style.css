@@ -799,6 +799,20 @@ body.light-mode #feedback-form textarea:focus {
   outline: none;
 }
 
+/* === Unified focus glow for Feedback + Topup === */
+#feedback-form input:focus,
+#feedback-form textarea:focus,
+body.light-mode #feedback-form input:focus,
+body.light-mode #feedback-form textarea:focus,
+#topup-modal input:focus,
+#topup-modal select:focus,
+#topup-modal textarea:focus {
+  outline: none !important;
+  border-color: var(--color-accent) !important;
+  box-shadow: 0 0 0 1px rgba(152, 92, 255, 0.22) !important;
+  transition: box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
 /* ====================================
  * 💎 Nút Glow Tím Hồng (Dùng chung)
  * ==================================== */
