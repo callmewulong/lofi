@@ -1164,6 +1164,16 @@ body { -webkit-tap-highlight-color: transparent; }
   }
 }
 
+/* === Topup inputs visibility in light mode === */
+body.light-mode #topup-modal input,
+body.light-mode #topup-modal select,
+body.light-mode #topup-modal textarea {
+  background: #fafafa;
+  color: #333;
+  border: 1.6px solid #e0e0e0;
+  box-shadow: none;
+}
+
 /* ==================================================
    💳 POPUP NẠP THẺ (Đồng bộ giao diện By Wu Long)
    ================================================== */
@@ -1227,7 +1237,7 @@ body { -webkit-tap-highlight-color: transparent; }
 #topup-modal select {
   width: 100%;
   padding: 10px 12px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1.6px solid rgba(255, 255, 255, 0.15);
   border-radius: 10px;
   background: var(--color-card-bg);
   color: var(--color-light);
